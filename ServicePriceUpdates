@@ -1,0 +1,15 @@
+SELECT *
+FROM services;
+
+UPDATE services
+SET services_price = 500
+WHERE services_ticket_id = 4;
+
+UPDATE services
+SET services_price = 5000
+WHERE services_ticket_id = 6;
+
+UPDATE services
+SET services_price = 265
+WHERE services_ticket_id = 5;
+
